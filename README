@@ -1,10 +1,10 @@
 
-sudo docker build -t hello567 .
-#docker run -p 80:80 hello567
-sudo docker run -p 80:80 -v [YOUR FILE DIRECTORY]/src:/usr/share/nginx/html hello567
+sudo docker build -t helloHuck .
+#docker run -p 80:80 helloHuck
+sudo docker run -p 80:80 -v [YOUR FILE DIRECTORY]/src:/usr/share/nginx/html helloHuck
 
 # open web explore
-#enter localhost:80
+# enter localhost:80
 
 # change code in index.html
 #refresh the webpage
