@@ -1,4 +1,4 @@
-cd mount_test
+
 sudo docker build -t hello567 .
 #docker run -p 80:80 hello567
 docker run -p 80:80 -v ~/mount_test/src:/usr/share/nginx/html hello567
